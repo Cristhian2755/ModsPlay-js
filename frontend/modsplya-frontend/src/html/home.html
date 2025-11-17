@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ModsPlay - Home</title>
+
+    <link rel="preconnect" href="https://fonts.bunny.net">
+    <link href="https://fonts.bunny.net/css?family=figtree:400,600,700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="/frontend/modsplya-frontend/src/css/home.css">
+    <link rel="stylesheet" href="/frontend/modsplya-frontend/src/css/app.css">
+    <script src="/frontend/modsplya-frontend/src/js/app.js" defer></script>
+    <script src="https://kit.fontawesome.com/your-code.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="main-nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="home.html">
+                    <img src="/frontend/modsplya-frontend/public/img/artwork 1.png" alt="ModsPlay Logo">
+                </a>
+            </div>
+            
+            <div class="nav-search">
+                <form action="search.html" method="GET">
+                    <input type="text" name="q" placeholder="Search mods, games, users..." class="search-input">
+                    <button type="submit" class="search-button">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+            </div>
+
+            <div class="nav-links">
+                <a href="browse.html" class="nav-link">Browse</a>
+                <a href="upload.html" class="nav-link">Upload</a>
+                <a href="community.html" class="nav-link">Community</a>
+                
+                <div class="user-dropdown">
+                    <div class="auth-buttons">
+                        <a href="profile.html">
+                            <img src="/frontend/modsplya-frontend/public/img/usuario.png">
+                        </a>
+                        <a href="index.html">
+                            <img src="/frontend/modsplya-frontend/public/img/salida.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main-wrapper">
+        
+        <section class="hero-section cuadro-animado">
+            <div class="hero-content">
+                <h1>Discover and Share Game Mods</h1>
+                <p>Join our community of modders and gamers to enhance your gaming experience</p>
+                <div class="hero-buttons">
+                    <a href="browse.html" class="btn btn-primary">Explore Content</a>
+                    <a href="upload.html" class="btn btn-secondary">Upload Your Creation</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-section cuadro-animado">
+            <h2 class="section-title">Featured Mods</h2>
+            <div class="mods-grid">
+                
+                <div class="mod-card">
+                    <div class="mod-thumbnail">
+                        <img src="/img/example-mod1.jpg" alt="Super Graphics Mod"> <div class="mod-views"><i class="fas fa-eye"></i> 1.2k</div>
+                    </div>
+                    <div class="mod-info">
+                        <h3><a href="mod-details.html">Super Graphics Mod</a></h3>
+                        <div class="mod-author">by <a href="profile.html">ModMaster99</a></div>
+                        <div class="mod-stats">
+                            <span><i class="fas fa-download"></i> 500</span>
+                            <span><i class="fas fa-heart"></i> 120</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mod-card">
+                    <div class="mod-thumbnail">
+                        <img src="/img/example-mod2.jpg" alt="New Weapons Pack">
+                        <div class="mod-views"><i class="fas fa-eye"></i> 800</div>
+                    </div>
+                    <div class="mod-info">
+                        <h3><a href="mod-details.html">New Weapons Pack</a></h3>
+                        <div class="mod-author">by <a href="profile.html">GunSmith</a></div>
+                        <div class="mod-stats">
+                            <span><i class="fas fa-download"></i> 300</span>
+                            <span><i class="fas fa-heart"></i> 85</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mod-card">
+                    <div class="mod-thumbnail">
+                        <img src="/img/example-mod3.jpg" alt="Better UI">
+                        <div class="mod-views"><i class="fas fa-eye"></i> 2.5k</div>
+                    </div>
+                    <div class="mod-info">
+                        <h3><a href="mod-details.html">Better UI v2.0</a></h3>
+                        <div class="mod-author">by <a href="profile.html">InterfaceGod</a></div>
+                        <div class="mod-stats">
+                            <span><i class="fas fa-download"></i> 1.2k</span>
+                            <span><i class="fas fa-heart"></i> 400</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="trending-section cuadro-animado">
+            <h2 class="section-title">🔥 Trending Today</h2>
+            <div class="mods-grid">
+                <div class="mod-card">
+                    <div class="mod-thumbnail">
+                        <img src="/img/example-mod4.jpg" alt="Trending Mod">
+                        <div class="mod-views"><i class="fas fa-eye"></i> 5k</div>
+                    </div>
+                    <div class="mod-info">
+                        <h3><a href="mod-details.html">Realistic Physics</a></h3>
+                        <div class="mod-author">by <a href="profile.html">Newton</a></div>
+                        <div class="mod-stats">
+                            <span><i class="fas fa-download"></i> 3k</span>
+                            <span><i class="fas fa-heart"></i> 900</span>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        </section>
+
+        <section class="recommended-section cuadro-animado">
+            <h2 class="section-title">🌟 Community Picks</h2>
+            <div class="mods-grid">
+                <div class="mod-card">
+                    <div class="mod-thumbnail">
+                        <img src="/img/example-mod5.jpg" alt="Community Pick">
+                    </div>
+                    <div class="mod-info">
+                        <h3><a href="mod-details.html">Skyrim Expansion</a></h3>
+                        <div class="mod-author">by <a href="profile.html">DragonBorn</a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="categories-section cuadro-animado">
+            <h2 class="section-title">Popular Categories</h2>
+            <div class="categories-grid">
+                <a href="category.html" class="category-card">
+                    <div class="category-icon"><i class="fas fa-gun"></i></div>
+                    <h3>Action</h3>
+                </a>
+                <a href="category.html" class="category-card">
+                    <div class="category-icon"><i class="fas fa-hat-wizard"></i></div>
+                    <h3>RPG</h3>
+                </a>
+                <a href="category.html" class="category-card">
+                    <div class="category-icon"><i class="fas fa-chess"></i></div>
+                    <h3>Strategy</h3>
+                </a>
+                <a href="category.html" class="category-card">
+                    <div class="category-icon"><i class="fas fa-car"></i></div>
+                    <h3>Racing</h3>
+                </a>
+            </div>
+        </section>
+
+        <section class="activity-section cuadro-animado">
+            <div class="activity-container">
+                <div class="recent-activity">
+                    <h2 class="section-title">🧑‍🤝‍🧑 Community Activity</h2>
+                    <div class="activity-feed">
+                        <div class="activity-item">
+                            <img src="/img/default-avatar.png" alt="User" class="activity-avatar">
+                            <div class="activity-content">
+                                <p>
+                                    <a href="profile.html">AlexGamer</a>
+                                    commented on
+                                    <a href="mod-details.html">Ultra Texture Pack</a>
+                                </p>
+                                <small class="activity-time">2 hours ago</small>
+                            </div>
+                        </div>
+                        <div class="activity-item">
+                            <img src="/img/default-avatar.png" alt="User" class="activity-avatar">
+                            <div class="activity-content">
+                                <p>
+                                    <a href="profile.html">SarahMods</a>
+                                    uploaded
+                                    <a href="mod-details.html">Cyberpunk Fix</a>
+                                </p>
+                                <small class="activity-time">5 hours ago</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="top-mods">
+                    <h2 class="section-title">🏆 Top Mods This Week</h2>
+                    <div class="top-mods-list">
+                        <div class="top-mod-item">
+                            <span class="mod-rank">1</span>
+                            <div class="mod-details">
+                                <h3><a href="mod-details.html">HD Reworked Project</a></h3>
+                                <div class="mod-author">by <a href="profile.html">HalkHogan</a></div>
+                                <div class="mod-stats"><i class="fas fa-download"></i> 10k</div>
+                            </div>
+                        </div>
+                        <div class="top-mod-item">
+                            <span class="mod-rank">2</span>
+                            <div class="mod-details">
+                                <h3><a href="mod-details.html">Optifine</a></h3>
+                                <div class="mod-author">by <a href="profile.html">sp614x</a></div>
+                                <div class="mod-stats"><i class="fas fa-download"></i> 8.5k</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="news-section cuadro-animado">
+            <h2 class="section-title">📰 Latest News</h2>
+            <div class="mods-grid">
+                <div class="mod-card">
+                    <div class="mod-info">
+                        <h3><a href="news-details.html">Site Maintenance Update</a></h3>
+                        <div class="mod-author">by Admin</div>
+                        <p>We will be performing scheduled maintenance on Sunday...</p>
+                    </div>
+                </div>
+                <div class="mod-card">
+                    <div class="mod-info">
+                        <h3><a href="news-details.html">New Upload Features</a></h3>
+                        <div class="mod-author">by DevTeam</div>
+                        <p>Check out the new bulk upload tools available now...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-columns">
+                <div class="footer-column">
+                    <h4>About ModsPlay</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Community Guidelines</a></li>
+                        <li><a href="#">Modding Tutorials</a></li>
+                        <li><a href="#">Safety</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                        <li><a href="#">DMCA</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Connect</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-discord"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <div class="newsletter">
+                        <h5>Subscribe to our newsletter</h5>
+                        <form class="newsletter-form">
+                            <input type="email" placeholder="Your email">
+                            <button type="submit">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 ModsPlay. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Terms</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Cookies</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
